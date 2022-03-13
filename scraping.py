@@ -70,7 +70,7 @@ def featured_image(browser):
     url = 'https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html'
     browser.visit(url)
 
-    # Find and click the full image button
+    # find and click the full image button
     full_image_elem = browser.find_by_tag('button')[1]
     full_image_elem.click()
 
